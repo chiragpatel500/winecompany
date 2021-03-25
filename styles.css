@@ -1,0 +1,145 @@
+
+body {
+  margin: 0;
+  padding: 0; 
+}
+
+.navitems {
+ display: flex;
+ justify-content: flex-end;
+ list-style-type: none;
+ font-size: larger;
+}
+
+
+.headerimage{
+background-image: url("https://www.australienwinestore.de/images/slider_images/AustralienWineStore-All-wines-available-2.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+width: 100vw;
+height: 80vh;
+}
+
+.navbar {
+ color: white;
+ background-color: black;
+
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+}
+
+nav {
+   width: 20%;
+}
+
+.navitems {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-around;
+}
+/*  ********   END NAVBAR STYLES   ********  */
+
+
+
+.headerimg {
+ width: 100%;
+}
+
+.inner1 {
+ width: 100vw;
+ background-color:beige;
+ display: grid;
+ grid-template-columns: 33.33% 33.33% 33.33%;
+}
+
+.inner2 {
+ display: grid;
+ grid-template-columns: 50% 50%;
+ width: 100%;
+ align-items: center;
+}
+
+.left {
+  justify-content: flex-start;
+}
+
+.right {
+   justify-content: flex-end;
+}
+
+.center {
+   justify-content: center;
+}
+
+.inner3 {
+ display: grid;
+ grid-template-columns: 33.33% 33.33% 33.33%;
+ inline-size: auto;
+ background-color: rgb(228, 213, 192);
+ width: 100%;
+ justify-content: center;
+ margin: 0%;
+}
+
+.h1 {
+ background-color: blanchedalmond;
+}
+
+.googlemaps {
+ width: 100%;
+}
+
+.ourgallery {
+ text-align: center;
+ font-style: normal;
+ background-color: bisque;
+ margin: 0%;
+}
+
+.ourwines {
+ text-align: center;
+ background-color: blanchedalmond;
+ margin: 0%;
+}
+
+.ourteam {
+ text-align: center;
+ background-color: blanchedalmond;
+ margin: 0%;
+ margin-bottom: 0%;
+}
+
+.footer {
+ background-color: black;
+ color: white;
+ text-align: center;
+ margin: 0%;
+}
+
+.galley1 {
+ border: 1px solid black;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.galley2 {
+   display: flex;
+   align-items: center;
+   padding: 0 10%;
+   background-color: antiquewhite;
+ }
+
+.galley1 img {
+   width: 90%;
+}
+
+.fourthpic {
+ width: 100vw;
+}
+
+.fourthpic img {
+ width: 100%;
+}
